@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:getx_mvvm/res/getx_localization/languages.dart';
 import 'package:getx_mvvm/res/routes/routes.dart';
+import 'package:getx_mvvm/server_text/nodejs_local_db_display.dart';
 import 'package:getx_mvvm/server_text/nodejs_server_test.dart';
 import 'package:getx_mvvm/view/splash_screen.dart';
 
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue
       ),
       getPages: AppRoutes.appRoutes(),
-      home: SplashScreen(),
+      home: NodeJsLocalDBData(),
     );
   }
 }
