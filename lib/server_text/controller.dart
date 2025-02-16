@@ -33,7 +33,7 @@ class ServerController extends GetxController{
 
   //this return in json data
   Future<void> fetchData() async{
-    final url = Uri.parse('http://192.168.1.33:8000');
+    final url = Uri.parse('http://192.168.1.35:8000');
 
     try{
       final response = await http.get(url);
